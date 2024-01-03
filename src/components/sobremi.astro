@@ -1,0 +1,81 @@
+---
+const icons = [
+  {
+    icon: "/icons/html.svg",
+    name: "Html",
+  },
+  {
+    icon: "/icons/css.svg",
+    name: "Css",
+  },
+  {
+    icon: "/icons/js.svg",
+    name: "JavaScript",
+  },
+  {
+    icon: "/icons/tailwind.svg",
+    name: "Tailwind",
+  },
+  {
+    icon: "/icons/react.svg",
+    name: "React",
+  },
+  {
+    icon: "/icons/node.svg",
+    name: "Node",
+  },
+  {
+    icon: "/icons/express.svg",
+    name: "Express",
+  },
+  {
+    icon: "/icons/astro.svg",
+    name: "Astro",
+  },
+];
+---
+
+<section
+  class="flex flex-col lg:flex-row bg-black bg-opacity-20 p-8 rounded-xl border border-zinc-600 mt-5 mx-4 lg:mx-0"
+>
+  <article class="text-white lg:w-1/2 lg:mr-20">
+    <h2 class="text-indigo-500 text-4xl font-bold text-center">Sobre mi</h2>
+    <br />
+    <p class="font-extralight text-xs lg:text-sm">
+      Como desarrollador web full-stack, mi historial demuestra el desarrollo de
+      aplicaciones web de alta calidad que satisfacen las necesidades de los
+      clientes. Poseo competencia en diversas tecnologías, como HTML, CSS,
+      JavaScript, TypeScript, React y Next.js, y experiencia en front-end y
+      back-end.
+    </p>
+    <br />
+    <p class="font-extralight text-xs lg:text-sm">
+      En proyectos anteriores, se ha evidenciado mi habilidad para crear
+      interfaces de usuario intuitivas y diseños atractivos que mejoran la
+      experiencia del usuario. También he construido arquitecturas de back-end
+      sólidas utilizando Node.js, Express y GraphQL, garantizando la seguridad y
+      escalabilidad de las aplicaciones.
+    </p>
+    <br />
+    <p class="font-extralight text-xs lg:text-sm">
+      Soy un profesional altamente motivado y orientado a los detalles,
+      comprometido con estar al tanto de las últimas tendencias y mejores
+      prácticas de la industria. Busco constantemente nuevos desafíos y
+      oportunidades para expandir mis habilidades. Confío en que mi experiencia
+      y conocimientos me convierten en un activo valioso para cualquier equipo.
+    </p>
+  </article>
+  <article class="lg:w-1/2 mt-5">
+    <h2 class="text-indigo-500 text-4xl font-bold text-center">Habilidades</h2>
+    <div class="flex flex-wrap lg:items-stretch items-center justify-center">
+      {
+        icons.map((icon) => (
+          <figure class="bg-indigo-500 bg-opacity-15 rounded-lg w-28 h-28 flex flex-col items-center justify-center lg:mr-4 mx-2 lg:mx-0 my-2 hover:scale-110 transition">
+            <img src={icon.icon} alt="tecnologia" />
+            <p class="text-[#5553B7] mt-2   ">{icon.name}</p>
+          </figure>
+        ))
+      }
+    </div>
+  </article>
+</section>
