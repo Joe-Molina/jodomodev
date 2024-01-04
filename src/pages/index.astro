@@ -3,10 +3,12 @@ import Layout from "../layouts/Layout.astro";
 import Presentacion from "../components/presentacion.astro";
 import SobreMi from "../components/sobremi.astro";
 import { ProyectosDestacables } from "../components/proyectosDestacables.jsx";
+import { OtrosProyectos } from "../components/OtrosProyectos.jsx";
 ---
 
 <Layout title="JodomoDev">
   <Presentacion />
-  <SobreMi class="lg:mb-10" />
+  <SobreMi />
   <ProyectosDestacables />
+  <OtrosProyectos />
 </Layout>

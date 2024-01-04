@@ -28,14 +28,16 @@ export const ProyectosDestacables = () => {
       <h2 class="text-4xl lg:text-6xl font-bold text-center lg:text-start text-white">
         Proyectos destacables
       </h2>
-      {proyectos.map((project) => (
-        <CardPD
-          img={project.imgSrc}
-          title={project.cardTitle}
-          parrafos={project.cardParrafos}
-          tecnologias={project.cardTecnologias}
-        />
-      ))}
+      <div className="flex flex-col items-center">
+        {proyectos.map((project) => (
+          <CardPD
+            img={project.imgSrc}
+            title={project.cardTitle}
+            parrafos={project.cardParrafos}
+            tecnologias={project.cardTecnologias}
+          />
+        ))}
+      </div>
     </section>
   );
 };
