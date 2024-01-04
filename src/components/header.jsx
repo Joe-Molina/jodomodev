@@ -49,14 +49,14 @@ export const Header = () => {
             </a>
           </li>
           <li>
-            <a href="" className="pr-6 hover:text-indigo-500 transition">
+            <a href="" className="pr-6 hover:text-indigo-500 transition ">
               Contacto
             </a>
           </li>
           <li className="">
             <a
               href=""
-              className="text-indigo-500 py-3 px-8 border-2 flex border-indigo-500 rounded-lg hover:bg-indigo-500 hover:bg-opacity-20 transition"
+              className="text-indigo-500 py-3 px-8 border-2 flex border-indigo-500 rounded-lg hover:bg-indigo-500 hover:bg-opacity-20 transition hover:animate-pulse "
             >
               cv
             </a>
@@ -66,7 +66,7 @@ export const Header = () => {
       <button
         onClick={handleClick}
         href=""
-        className="text-indigo-500 py-3 px-4 border-2 flex border-indigo-500 rounded-lg hover:bg-indigo-500 hover:bg-opacity-20 transition lg:hidden"
+        className="text-indigo-500 py-3 px-4 border-2 flex border-indigo-500 rounded-lg hover:bg-indigo-500 hover:bg-opacity-20 transition lg:hidden "
       >
         Menu
       </button>
