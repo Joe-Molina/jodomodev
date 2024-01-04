@@ -1,7 +1,7 @@
 export const CardPD = ({ img, title, parrafos, tecnologias }) => {
   return (
     <article className="container flex flex-col lg:flex-row bg-black/30 rounded-xl border border-zinc-600 p-4 mt-4 hover:bg-gradient-to-b from-gray-900/5 to-indigo-500/5  duration-200 transition">
-      <div className="text-white flex flex-col justify-between">
+      <div className="text-white flex flex-col justify-between px-10">
         <a href="">
           <h3 className="text-3xl font-bold text-center my-4   text-white">
             {title}
@@ -9,7 +9,9 @@ export const CardPD = ({ img, title, parrafos, tecnologias }) => {
         </a>
         {parrafos.map((parrafo) => (
           <>
-            <p className="font-thin text-xs lg:text-sm">{parrafo}</p>
+            <p className="font-thin text-xs lg:text-sm text-gray-300">
+              {parrafo}
+            </p>
             <br />
           </>
         ))}
@@ -22,7 +24,7 @@ export const CardPD = ({ img, title, parrafos, tecnologias }) => {
         </div>
       </div>
 
-      <img className="rounded-lg" src={img} alt="" />
+      <img className="rounded-lg m-3" src={img} alt="" />
     </article>
   );
 };
