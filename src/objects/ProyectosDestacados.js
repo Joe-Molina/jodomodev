@@ -7,7 +7,14 @@ export const proyectos = [
       "el sitio web cumple la funcion de ser un catalogo online donde el usuario puede ver informacion importante sobre medicamentos y los componentes con los que estos se fabrican.",
       "asi como un blog orientado a dar informacion sobre la salud.",
     ],
-    cardTecnologias: ["JavaScript", "HTML", "CSS"],
+    cardTecnologias: [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Express.js",
+      "Bootstrap",
+    ],
     link: "https://github.com/Joe-Molina/Phamaplant",
   },
   {
