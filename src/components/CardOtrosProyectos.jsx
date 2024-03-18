@@ -34,10 +34,10 @@ export const CardOP = ({ title, parrafos, tecnologias, link }) => {
           ))}
         </div>
         <div className="mt-2">
-          <a href={link.github} className={"m-2 bg-indigo-600 bg-opacity-25 px-3 py-1 rounded-lg  " + switchLinks}>
+          <a href={link.github} target='_blank'  className={"m-2 bg-indigo-600 bg-opacity-25 px-3 py-1 rounded-lg  " + switchLinks}>
             ver codigo
           </a>
-          <a  href={link.demo} className={"m-2 bg-indigo-600 bg-opacity-25 px-3 py-1 rounded-lg " + switchLinks}>
+          <a  href={link.demo} target='_blank' className={"m-2 bg-indigo-600 bg-opacity-25 px-3 py-1 rounded-lg " + switchLinks}>
             ver demo
           </a>
         </div>
