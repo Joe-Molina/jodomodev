@@ -12,7 +12,7 @@ export const proyectos = [
       "Tailwind",
       "React",
     ],
-    link: "https://github.com/Joe-Molina/NexusWeb-page",
+    link: {github: "https://github.com/Joe-Molina/NexusWeb-page", demo: "https://digitalnexus.vercel.app"} ,
   },
   {
     cardTitle: "VirtualPokedex",
@@ -20,8 +20,9 @@ export const proyectos = [
       "Esta es una aplicacion que te da informacion sobre todos los pokemons que existen actualmente. esta diseñada para navegar de forma rapida evitando la carga de otras pestañas con un diseño minimalista muy intuitivo para el usuario.",
     ],
     cardTecnologias: ["JavaScript", "HTML", "CSS"],
-    link: "https://github.com/Joe-Molina/Virtual-Pokedex",
-  },
+    link: {github: "https://github.com/Joe-Molina/Virtual-Pokedex",
+   demo: "https://virtualpokedex.netlify.app/"}
+    },
   {
     cardTitle: "Quiero Galleta",
     cardParrafos: [
@@ -35,6 +36,6 @@ export const proyectos = [
       "Tailwind",
       "React",
     ],
-    link: "https://github.com/Joe-Molina/Quiero-Galleta",
+    link: {github: "https://github.com/Joe-Molina/Quiero-Galleta", demo: "https://quierogalleta.vercel.app/"}
   },
 ];
