@@ -33,6 +33,6 @@ export const proyectos = [
       "Express.js",
       "Bootstrap",
     ],
-    link: "https://github.com/Joe-Molina/Phamaplant",
+    link: "https://github.com/Joe-Molina/iutaclass",
   },
 ];

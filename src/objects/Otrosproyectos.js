@@ -35,6 +35,6 @@ export const proyectos = [
       "Tailwind",
       "React",
     ],
-    link: "https://github.com/Joe-Molina/Virtual-Pokedex",
+    link: "https://github.com/Joe-Molina/Quiero-Galleta",
   },
 ];
