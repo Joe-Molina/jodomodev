@@ -1,5 +1,7 @@
 ---
 import { Header } from "../components/header.jsx";
+import Footer from "../components/footer.astro";
+
 interface Props {
   title: string;
 }
@@ -43,6 +45,7 @@ const { title } = Astro.props;
   <body class="max-w-7xl mx-auto">
     <Header client:visible />
     <slot />
+    <Footer client:visible />
   </body>
 </html>
 <style is:global>
