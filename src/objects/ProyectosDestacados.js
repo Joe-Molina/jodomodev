@@ -30,7 +30,7 @@ export const proyectos = [
     link: "https://github.com/Joe-Molina/iutaclass",
   },
   {
-    imgSrc: "projects/iutaclass.png",
+    imgSrc: "projects/digitalnexus.png",
     cardTitle: "NexusWeb",
     cardParrafos: [
       "Sitio web de mi emprendimiento como desarrollador de software. busca dar a conocer mis servicios y trabajos para futuros clientes.",
@@ -49,10 +49,10 @@ export const proyectos = [
     },
   },
   {
-    imgSrc: "projects/iutaclass.png",
+    imgSrc: "projects/nationalPokedex.png",
     cardTitle: "VirtualPokedex",
     cardParrafos: [
-      "Esta es una aplicacion que te da informacion sobre todos los pokemons que existen actualmente. esta diseñada para navegar de forma rapida evitando la carga de otras pestañas con un diseño minimalista muy intuitivo para el usuario.",
+      "Esta es una aplicacion que te da informacion sobre todos los pokemons que existen actualmente..",
     ],
     cardTecnologias: ["JavaScript", "HTML", "CSS"],
     link: {
@@ -61,7 +61,7 @@ export const proyectos = [
     },
   },
   {
-    imgSrc: "projects/iutaclass.png",
+    imgSrc: "projects/quierogalleta.png",
     cardTitle: "Quiero Galleta",
     cardParrafos: [
       "Menu catalogo para La Dulceria quiero Galleta. Esta cumple la funcion de mostrar informacion de forma rapida e intuitiva con una UI interactiva.",
