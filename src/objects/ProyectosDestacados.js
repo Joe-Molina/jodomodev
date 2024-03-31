@@ -22,8 +22,6 @@ export const proyectos = [
     cardTitle: "Iutaclass",
     cardParrafos: [
       "Aplicacion web que crea y gestiona aulas virtuales al estilo de google classroom.",
-      "esta aplicacion permite registrar usuarios, tenes diferentes niveles de usuarios, permite crear aulas, asignar alumnos y profesores, subir evaluaciones y calificarlas.",
-      "este es el programa que hice para optar por el titulo de informatico en mi universidad. (tesis de pregrado)",
     ],
     cardTecnologias: [
       "JavaScript",
