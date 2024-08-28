@@ -12,7 +12,7 @@ export const proyectos = [
       "Astro",
       "Tailwind",
     ],
-    link: "https://github.com/Joe-Molina/Phamaplant",
+    link: { github: "https://github.com/Joe-Molina/Phamaplant" },
   },
   {
     imgSrc: "projects/iutaclass.png",
@@ -27,7 +27,7 @@ export const proyectos = [
       "Express.js",
       "Bootstrap",
     ],
-    link: "https://github.com/Joe-Molina/iutaclass",
+    link: { github: "https://github.com/Joe-Molina/iutaclass" },
   },
   {
     imgSrc: "projects/digitalnexus.png",
@@ -77,6 +77,26 @@ export const proyectos = [
     link: {
       github: "https://github.com/Joe-Molina/Quiero-Galleta",
       demo: "https://quierogalleta.vercel.app/",
+    },
+  },
+  {
+    imgSrc: "projects/mediacim.png",
+    cardTitle: "MediaCIM",
+    cardParrafos: [
+      "visualizador de publicidad programada para navegador. con administracion centralizada de multiples pantallas",
+    ],
+    cardTecnologias: [
+      "HTML",
+      "CSS",
+      "Tailwind",
+      "JavaScript",
+      "Node.js",
+      "TypeScript",
+      "Next.js",
+      "Express.js"
+    ],
+    link: {
+      github: "https://github.com/Joe-Molina/monitores"
     },
   },
 ];

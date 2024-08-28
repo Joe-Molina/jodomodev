@@ -3,9 +3,12 @@ export const CardPD = ({ img, title, parrafos, tecnologias, link }) => {
     <article className="container flex flex-col justify-between  bg-neutral-900/60 rounded-xl border border-zinc-800 p-2 mt-4 hover:bg-gradient-to-b from-gray-900/5 to-indigo-500/5  duration-200 transition lg:max-w-96 lg:m-1 lg:min-h-96 ">
       <div className="text-white flex flex-col justify-between px-2 h-full my-1">
         <img className="rounded-lg  max-h-72" src={img} alt="" />
-        <h3 className="text-xl font-medium text-start text-white mt-1">
-          {title}
-        </h3>
+        <div className="flex justify-between">
+          <h3 className="text-xl font-medium text-start text-white mt-1 w-1/2 inline-block">{title}</h3>
+          <div className="mt-1 font-thin ">
+            <a target="_blank" href={link.github} className="inline hover:text-indigo-500">Repo</a>  {link.demo ? <a target="_blank" href={link.demo} className="inline hover:text-indigo-500" >| Demo</a> : ""}
+          </div>
+        </div>
         <p className="font-thin text-xs lg:text-sm text-gray-300 mb-1 ml-1">
           {parrafos}
         </p>
