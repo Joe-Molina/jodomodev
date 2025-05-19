@@ -36,11 +36,11 @@ const icons = [
 ---
 
 <section
-  class="flex flex-col lg:flex-row bg-black bg-opacity-20 p-2 lg:p-5 rounded-xl border border-zinc-600 mt-5 lg:mx-4 lg:mb-40"
+  class='flex flex-col lg:flex-row bg-black bg-opacity-20 p-2 lg:p-5 rounded-xl border border-zinc-600 mt-5 lg:mx-4 lg:mb-40'
 >
-  <article class="text-white lg:w-1/2 lg:mr-20">
-    <h2 class="text-4xl font-bold text-center">Sobre mi</h2>
-    <p class="font-thin text-xs lg:text-sm mt-3 text-gray-300">
+  <article class='text-white lg:w-1/2 lg:mr-20'>
+    <h2 class='text-4xl font-bold text-center'>Sobre mi</h2>
+    <p class='font-thin text-xs lg:text-sm mt-3 text-gray-300'>
       Como desarrollador web full-stack, mi historial demuestra el desarrollo de
       aplicaciones web de alta calidad que satisfacen las necesidades de los
       clientes. Poseo competencia en diversas tecnologías, como HTML, CSS,
@@ -48,7 +48,7 @@ const icons = [
       en front-end y back-end.
     </p>
     <br />
-    <p class="font-thin text-xs lg:text-sm text-gray-300">
+    <p class='font-thin text-xs lg:text-sm text-gray-300'>
       Soy un profesional altamente motivado y orientado a los detalles,
       comprometido con estar al tanto de las últimas tendencias y mejores
       prácticas de la industria. Busco constantemente nuevos desafíos y
@@ -56,16 +56,16 @@ const icons = [
       y conocimientos que espero poder compartir con un gran equipo.
     </p>
   </article>
-  <article class="lg:w-1/2 mt-5 lg:mt-0">
-    <h2 class="text-white text-4xl font-bold text-center mb-3 lg:mb-0">
+  <article class='lg:w-1/2 mt-5 lg:mt-0'>
+    <h2 class='text-white text-4xl font-bold text-center mb-3 lg:mb-0'>
       Habilidades
     </h2>
-    <div class="flex flex-wrap lg:items-stretch items-center justify-center">
+    <div class='flex flex-wrap lg:items-stretch items-center justify-center'>
       {
         icons.map((icon) => (
-          <figure class="bg-indigo-500 bg-opacity-15 rounded-lg w-20 h-24 lg:w-28 lg:h-28 flex flex-col items-center justify-center lg:mr-4 mx-1 lg:mx-0 my-1 lg:my-2 hover:scale-110 transition hover:animate-pulse ">
-            <img src={icon.icon} alt="tecnologia" />
-            <p class="text-[#5553B7] mt-2   ">{icon.name}</p>
+          <figure class='bg-indigo-500/10  rounded-lg w-20 h-24 lg:w-28 lg:h-28 flex flex-col items-center justify-center lg:mr-4 mx-1 lg:mx-0 my-1 lg:my-2 hover:scale-110 transition hover:animate-pulse '>
+            <img src={icon.icon} alt='tecnologia' />
+            <p class='text-[#5553B7] m-0'>{icon.name}</p>
           </figure>
         ))
       }

@@ -10,64 +10,52 @@ const { title } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang='es'>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset='UTF-8' />
     <!-- meta datos de toa la vida -->
-    <meta name="author" content="Joe Molina" />
+    <meta name='author' content='Joe Molina' />
     <!-- meta datos facebook -->
-    <meta property="og:title" content="Jodomodev" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://jodomodev.vercel.app/" />
-    <meta property="og:locale" content="es" />
+    <meta property='og:title' content='Jodomodev' />
+    <meta property='og:type' content='website' />
+    <meta property='og:url' content='https://jodomodev.vercel.app/' />
+    <meta property='og:locale' content='es' />
     <meta
-      property="og:description"
-      content="Conoce un poco más sobre mi aqui, en mi portafolio online."
+      property='og:description'
+      content='Conoce un poco más sobre mi aqui, en mi portafolio online.'
     />
-    <meta property="og:site_name" content="JodomoDev" />
-    <meta property="og:image" content="/metaimg.png" />
+    <meta property='og:site_name' content='JodomoDev' />
+    <meta property='og:image' content='/metaimg.png' />
     <meta
-      property="og:image:alt"
-      content="jodomodev - joe molina fullStack developer"
+      property='og:image:alt'
+      content='jodomodev - joe molina fullStack developer'
     />
 
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name='viewport' content='width=device-width' />
+    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
+      href='https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap'
+      rel='stylesheet'
     />
-    <meta name="generator" content={Astro.generator} />
+    <meta name='generator' content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body class="max-w-7xl mx-auto">
+  <body class='max-w-7xl mx-auto'>
     <Header client:visible />
-    <slot />
+    <slot class='' />
     <Footer />
   </body>
 </html>
-<style is:global>
-  :root {
-    --accent: 136, 58, 234;
-    --accent-light: 224, 204, 250;
-    --accent-dark: 49, 10, 101;
-    --accent-gradient: linear-gradient(
-      45deg,
-      rgb(var(--accent)),
-      rgb(var(--accent-light)) 30%,
-      white 60%
-    );
-  }
+<style>
+  @import "tailwindcss";
+
   html {
     font-family: system-ui, sans-serif;
     background: #13151a;
     background-size: 224px;
     background-image: url("/bg.svg");
     font-family: "onest";
-  }
-  code {
-    font-family: Onest;
   }
 </style>
