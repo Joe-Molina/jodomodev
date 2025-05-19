@@ -2,14 +2,13 @@
 import Layout from "../layouts/Layout.astro";
 import Presentacion from "../components/presentacion.astro";
 import SobreMi from "../components/sobremi.astro";
-import { ProyectosDestacables } from "../components/proyectosDestacables.jsx";
+import { ProyectosGrid } from "../components/ProjectsGrid.jsx";
 ---
 
-<Layout title="JodomoDev">
-  <section class="px-6">
+<Layout title='JodomoDev'>
+  <section '>
     <Presentacion />
     <SobreMi />
   </section>
-  <ProyectosDestacables client:visible />
-  <!-- <OtrosProyectos client:visible /> -->
+  <ProyectosGrid client:visible />
 </Layout>

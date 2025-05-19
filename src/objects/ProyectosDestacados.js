@@ -1,102 +1,60 @@
 export const proyectos = [
   {
-    imgSrc: "projects/pharmaplant.png",
+    imgSrc: "projects/image.png",
     cardTitle: "Pharmaplant",
     cardParrafos:
       "Sitio web diseñado para el laboratorio Phamplant, enfocado en dara conocer los productios y promociones de la empresa",
     cardTecnologias: [
-      "JavaScript",
+      "TypeScript",
       "HTML",
       "CSS",
       "Bootstrap",
       "Astro",
       "Tailwind",
     ],
-    link: { github: "https://github.com/Joe-Molina/Phamaplant" },
-  },
-  {
-    imgSrc: "projects/iutaclass.png",
-    cardTitle: "Iutaclass",
-    cardParrafos:
-      "Aplicacion web que crea y gestiona aulas virtuales al estilo de google classroom.",
-    cardTecnologias: [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Node.js",
-      "Express.js",
-      "Bootstrap",
-    ],
-    link: { github: "https://github.com/Joe-Molina/iutaclass" },
-  },
-  {
-    imgSrc: "projects/digitalnexus.png",
-    cardTitle: "NexusWeb",
-    cardParrafos: [
-      "Sitio web de mi emprendimiento como desarrollador de software. busca dar a conocer mis servicios y trabajos para futuros clientes.",
-    ],
-    cardTecnologias: [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Astro",
-      "Tailwind",
-      "React",
-    ],
-    link: {
-      github: "https://github.com/Joe-Molina/NexusWeb-page",
-      demo: "https://digitalnexus.vercel.app",
-    },
-  },
-  {
-    imgSrc: "projects/nationalPokedex.png",
-    cardTitle: "VirtualPokedex",
-    cardParrafos: [
-      "Esta es una aplicacion que te da informacion sobre todos los pokemons que existen actualmente..",
-    ],
-    cardTecnologias: ["JavaScript", "HTML", "CSS"],
-    link: {
-      github: "https://github.com/Joe-Molina/Virtual-Pokedex",
-      demo: "https://virtualpokedex.netlify.app/",
-    },
-  },
-  {
-    imgSrc: "projects/quierogalleta.png",
-    cardTitle: "Quiero Galleta",
-    cardParrafos: [
-      "Menu catalogo para La Dulceria quiero Galleta. Esta cumple la funcion de mostrar informacion de forma rapida e intuitiva con una UI interactiva.",
-    ],
-    cardTecnologias: [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Astro",
-      "Tailwind",
-      "React",
-    ],
-    link: {
-      github: "https://github.com/Joe-Molina/Quiero-Galleta",
-      demo: "https://quierogalleta.vercel.app/",
-    },
+    link: [
+      "https://www.pharmaplantca.com",
+      "https://github.com/Joe-Molina/pharmaplant-v2"
+    ]
   },
   {
     imgSrc: "projects/mediacim.png",
     cardTitle: "MediaCIM",
     cardParrafos: [
-      "visualizador de publicidad programada para navegador. con administracion centralizada de multiples pantallas",
+      "App web para programar imágenes diarias con panel administrativo: calendario, subida de imagenes/videos, efectos.",
     ],
     cardTecnologias: [
       "HTML",
       "CSS",
       "Tailwind",
-      "JavaScript",
       "Node.js",
       "TypeScript",
       "Next.js",
       "Express.js"
     ],
-    link: {
-      github: "https://github.com/Joe-Molina/monitores"
-    },
+    link: [
+      "",
+      "https://github.com/Joe-Molina/cimsystem_client/tree/main/src/app/mediacim"
+    ]
+  },
+    {
+    imgSrc: "projects/jungle_print.png",
+    cardTitle: "Jungle Print",
+    cardParrafos: [
+      "Gestor web para venta de productos de imprenta: Registra productos por medidas/materiales, crea órdenes de compra, gestiona pagos en cuotas y exporta reportes a Excel. Panel administrativo con roles de acceso y dashboard de métricas.",
+    ],
+    cardTecnologias: [
+      "HTML",
+      "CSS",
+      "Tailwind",
+      "Node.js",
+      "TypeScript",
+      "Next.js",
+      "Express.js"
+    ],
+    link: [
+      "",
+      "https://github.com/Joe-Molina/cimsystem_client/tree/main/src/app/mediacim"
+    ]
   },
 ];

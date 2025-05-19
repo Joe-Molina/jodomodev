@@ -36,31 +36,34 @@ const icons = [
 ---
 
 <section
-  class='flex flex-col lg:flex-row bg-black bg-opacity-20 p-2 lg:p-5 rounded-xl border border-zinc-600 mt-5 lg:mx-4 lg:mb-40'
+  class='flex flex-col justify-center items-center bg-black/10 border border-blue-900/20 py-5 rounded-sm gap-10 my-10'
 >
-  <article class='text-white lg:w-1/2 lg:mr-20'>
+  <article class='text-white text-center max-w-[800px]'>
     <h2 class='text-4xl font-bold text-center'>Sobre mi</h2>
     <p class='font-thin text-xs lg:text-sm mt-3 text-gray-300'>
-      Como desarrollador web full-stack, mi historial demuestra el desarrollo de
-      aplicaciones web de alta calidad que satisfacen las necesidades de los
-      clientes. Poseo competencia en diversas tecnologías, como HTML, CSS,
-      Tailwind, JavaScript, Node.js, Express.js, React y Astro, con experiencia
-      en front-end y back-end.
+      ¡Hola! Soy un desarrollador web full-stack apasionado por crear soluciones
+      digitales que combinen funcionalidad y diseño. Con experiencia tanto en el
+      desarrollo front-end como back-end, disfruto transformar ideas en
+      aplicaciones dinámicas y eficientes, priorizando siempre la experiencia
+      del usuario y un código limpio y escalable.
+    </p>
+    <p class='font-thin text-xs lg:text-sm text-gray-300'>
+      Mi viaje en el mundo tech no se detiene aquí: busco constantemente
+      aprender nuevas tecnologías, colaborar en proyectos desafiantes y mejorar
+      mis habilidades para ofrecer soluciones innovadoras. Si estás buscando a
+      alguien comprometido, curioso y con ganas de sumergirse en cada detalle,
+      ¡aquí estoy!
     </p>
     <br />
-    <p class='font-thin text-xs lg:text-sm text-gray-300'>
-      Soy un profesional altamente motivado y orientado a los detalles,
-      comprometido con estar al tanto de las últimas tendencias y mejores
-      prácticas de la industria. Busco constantemente nuevos desafíos y
-      oportunidades para expandir mis habilidades. Confío en que mi experiencia
-      y conocimientos que espero poder compartir con un gran equipo.
-    </p>
+    <p class='text-center'>Let's build great things together. 🚀</p>
   </article>
-  <article class='lg:w-1/2 mt-5 lg:mt-0'>
+  <article class='mt-5 lg:mt-0'>
     <h2 class='text-white text-4xl font-bold text-center mb-3 lg:mb-0'>
       Habilidades
     </h2>
-    <div class='flex flex-wrap lg:items-stretch items-center justify-center'>
+    <div
+      class='flex flex-wrap lg:items-stretch items-center justify-center max-w-[600px]'
+    >
       {
         icons.map((icon) => (
           <figure class='bg-indigo-500/10  rounded-lg w-20 h-24 lg:w-28 lg:h-28 flex flex-col items-center justify-center lg:mr-4 mx-1 lg:mx-0 my-1 lg:my-2 hover:scale-110 transition hover:animate-pulse '>
