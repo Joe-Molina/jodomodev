@@ -1,6 +1,6 @@
 export const PropjectCard = ({ img, title, parrafos, tecnologias, link }) => {
   return (
-    <article className="container flex flex-col  bg-black/10  border border-blue-900/50 rounded-lg mt-4 hover:bg-gradient-to-b hover:bg-blue-900/5  duration-200 transition lg:max-w-96 lg:m-1 lg:h-[440px]">
+    <article className="container flex flex-col  bg-black/10  border border-blue-900/50 rounded-lg mt-4 hover:bg-gradient-to-b hover:bg-blue-900/5  duration-200 transition lg:max-w-96 lg:m-1 h-[440px]">
       <img src={img} alt="imagen Proyecto" />
       <div className="text-white flex flex-col justify-between gap-2 p-4 h-full ">
           <h3 className="text-lg font-medium text-start text-white  ">{title}</h3>
@@ -8,8 +8,8 @@ export const PropjectCard = ({ img, title, parrafos, tecnologias, link }) => {
           {parrafos}
         </p>
         <div className="flex gap-1 flex-wrap ">
-          {tecnologias.map((tecnologia) => (
-            <span className="py-1 px-2 bg-zinc-600/20 text-zinc-200 font-light rounded-lg text-xs">
+          {tecnologias.map((tecnologia, index) => (
+            <span className="py-1 px-2 bg-zinc-600/20 text-zinc-200 font-light rounded-lg text-xs" key={index}>
               {tecnologia}
             </span>
           ))}

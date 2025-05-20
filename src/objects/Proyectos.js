@@ -9,7 +9,7 @@ export const proyectos = [
       "HTML",
       "CSS",
       "Bootstrap",
-      "Astro",
+      "Next.js",
       "Tailwind",
     ],
     link: [
